@@ -1,0 +1,13 @@
+<div class="contenedor">
+    <div class="formulario">
+        <h1>Iniciar Sesión</h1>
+        <form>
+            <label for="correo">Correo electrónico <span>{{errorCorreo}}</span></label>
+            <input type="email" id="correo" #correo/>
+            <label for="contrasena">Contraseña <span>{{errorContrasena}}</span></label>
+            <input type="password" id="contrasena" #contrasena/>
+        </form>
+        <button (click) = 'validarDatos(correo.value, contrasena.value)'>Ingresar</button>
+    </div>
+</div>
+

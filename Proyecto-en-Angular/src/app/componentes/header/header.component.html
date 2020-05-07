@@ -1,0 +1,8 @@
+<div class="header">
+    <h1>La Bodega</h1>
+    <div class="nav">
+        <button routerLink = './catalogo'><i class="fas fa-bars"></i></button>
+        <button routerLink = './carrito'><i class="fas fa-shopping-cart"></i><div class="circulo" *ngIf="numeroTotal != 0">{{numeroTotal}}</div></button>
+        <button routerLink = '/login'><i class="fas fa-sign-out-alt"></i></button>
+    </div>
+</div>

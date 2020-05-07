@@ -1,0 +1,46 @@
+.header{
+    width: 95%;
+    height: 75px;
+    margin: auto;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    font-size: 25px;
+    padding: 10px;
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav button{
+    margin: 0px 10px;
+    background-color: none;
+    border: none;
+
+    font-size: 18px;
+
+    position: relative;
+}
+.nav button:hover{
+    font-size: 19.5px;
+}
+.circulo {
+    height: 70%;
+    width: 70%;
+    display: table-cell;
+    text-align: center;
+    font-size:15px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #ff0000;
+    color: #fff;
+
+    position: absolute;
+    bottom: -40%;
+    right: -30%;
+  }

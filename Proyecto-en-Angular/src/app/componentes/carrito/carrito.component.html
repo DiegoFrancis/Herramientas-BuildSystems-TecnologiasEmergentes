@@ -1,0 +1,25 @@
+<div class="contenedor">
+    <div class="header">
+        <h1>Carrito de compras</h1>
+    </div>
+
+    <div class="carrito">
+        <div class="productos">
+            <div *ngFor="let pedido of pedidos" class="producto">
+                <img src="../../../assets/img/{{productos[pedido.id].img}}.jpg" alt="{{productos[pedido.id].img}}" title="{{productos[pedido.id].img}}">
+                <div class="info-producto">
+                    <p>{{productos[pedido.id].nombre}}</p>
+                    <p>Unidades: {{pedido.numero}}</p>
+                    <p>Subtotal: ${{pedido.numero * productos[pedido.id].precio}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-pago">
+            <p>Total: ${{total}}</p>
+            <div class="botones">
+                <button (click)="cancelarCompra()">Cancelar</button>
+                <button (click)="pagarProductos()">Pagar</button>
+            </div>
+        </div>
+    </div>
+</div>

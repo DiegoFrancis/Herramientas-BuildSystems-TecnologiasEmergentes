@@ -1,0 +1,54 @@
+.contenedor{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../assets/img/login-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    width: 35%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 25px;
+    color: #fff;
+}
+form{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 25px;
+}
+input{
+    width: 95%;
+    height: 30px;
+    margin: 0px auto 15px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+button{
+    width: 20%;
+    padding: 5px;
+    background-color: #8EB51D;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 17px;
+}
+ /*Error*/
+ span{
+     color: #9B2A2A;
+ }

@@ -1,0 +1,22 @@
+<div class="contenedor">
+    <div class="header">
+        <h1>Catálogo de productos</h1>
+        <div class="buscador">
+            <label for="buscador">¿Qué estás buscando?</label>
+            <input type="text" id="buscador" placeholder="Buscar producto" (keydown)="onKeydown($event)" #buscador>
+        </div>
+    </div>
+    <div class="catalogo">
+        <div *ngFor="let producto of productos" class="producto" [ngStyle] = "{'display':producto.img.indexOf(keyWord) == 0 ? 'block' : 'none'}">
+            <img src="../../../assets/img/{{producto.img}}.jpg" alt="{{producto.img}}" title="{{producto.img}}">
+            <h2>{{producto.nombre}}</h2>
+            <p>Precio: ${{producto.precio}}</p>
+            <p>Disponibles: {{producto.disponibles}}</p>
+            <div class="botones">
+                <button routerLink =  '../detalles/{{producto.id}}'>Ver Más</button>
+                <button (click) = "agregarCarrito(numero.value, producto.id)" (click) = "numero.value = ''">Añadir</button>
+                <input type="number" min="1" #numero>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,128 @@
+[
+    {
+        "id": "0",
+        "nombre": "Aguacate",
+        "precio": "5",
+        "disponibles": "46",
+        "img": "aguacate"
+    },
+    {
+        "id": "1",
+        "nombre": "Ajo",
+        "precio": "1",
+        "disponibles": "125",
+        "img": "ajo"
+    },
+    {
+        "id": "2",
+        "nombre": "Almendras",
+        "precio": "2",
+        "disponibles": "68",
+        "img": "almendras"
+    },
+    {
+        "id": "3",
+        "nombre": "Arandanos",
+        "precio": "2",
+        "disponibles": "52",
+        "img": "arandanos"
+    },
+    {
+        "id": "4",
+        "nombre": "Lychee",
+        "precio": "2",
+        "disponibles": "86",
+        "img": "lychee"
+    },
+    {
+        "id": "5",
+        "nombre": "Calabaza",
+        "precio": "6",
+        "disponibles": "54",
+        "img": "calabaza"
+    },
+    {
+        "id": "6",
+        "nombre": "Canela",
+        "precio": "1",
+        "disponibles": "166",
+        "img": "canela"
+    },
+    {
+        "id": "7",
+        "nombre": "Fresa",
+        "precio": "750",
+        "disponibles": "1",
+        "img": "fresa"
+    },
+    {
+        "id": "8",
+        "nombre": "Kiwi",
+        "precio": "4",
+        "disponibles": "86",
+        "img": "kiwi"
+    },
+    {
+        "id": "9",
+        "nombre": "Limon",
+        "precio": "2",
+        "disponibles": "89",
+        "img": "limon"
+    },
+    {
+        "id": "10",
+        "nombre": "Maiz",
+        "precio": "5",
+        "disponibles": "57",
+        "img": "maiz"
+    },
+    {
+        "id": "11",
+        "nombre": "Manzana",
+        "precio": "5",
+        "disponibles": "69",
+        "img": "manzana"
+    },
+    {
+        "id": "12",
+        "nombre": "Papa",
+        "precio": "5",
+        "disponibles": "78",
+        "img": "papa"
+    },
+    {
+        "id": "13",
+        "nombre": "Pasta",
+        "precio": "3",
+        "disponibles": "56",
+        "img": "pasta"
+    },
+    {
+        "id": "14",
+        "nombre": "Pimienta",
+        "precio": "1",
+        "disponibles": "68",
+        "img": "pimienta"
+    },
+    {
+        "id": "15",
+        "nombre": "Repollo",
+        "precio": "3",
+        "disponibles": "85",
+        "img": "repollo"
+    },
+    {
+        "id": "16",
+        "nombre": "Zanahoria",
+        "precio": "3",
+        "disponibles": "100",
+        "img": "zanahoria"
+    },
+    {
+        "id": "17",
+        "nombre": "Tomate",
+        "precio": "4",
+        "disponibles": "82",
+        "img": "tomate"
+    }
+]
